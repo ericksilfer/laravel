@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'bawer' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.42
+4 verbose node symlink /usr/bin/node
+5 warn deprecated This version of npm lacks support for important features,
+6 warn deprecated such as scoped packages, offered by the primary npm
+7 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+8 warn deprecated latest stable version. To upgrade to npm@2, run:
+9 warn deprecated npm -g install npm@latest-2
+10 warn deprecated To upgrade to the latest stable version, run:
+11 warn deprecated npm -g install npm@latest
+12 warn deprecated (Depending on how Node.js was installed on your system, you
+13 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+14 warn deprecated on Windows, run them from an Administrator prompt.)
+15 warn deprecated If you're running the version of npm bundled with
+16 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+17 warn deprecated will be bundled with a version of npm@2, which has some small
+18 warn deprecated backwards-incompatible changes made to `npm run-script` and
+19 warn deprecated semver behavior.
+20 verbose cache add [ 'bawer', null ]
+21 verbose cache add name=undefined spec="bawer" args=["bawer",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'bawer',
+22 verbose parsed url   path: 'bawer',
+22 verbose parsed url   href: 'bawer' }
+23 silly lockFile 7ec66022-bawer bawer
+24 verbose lock bawer /root/.npm/7ec66022-bawer.lock
+25 silly lockFile 7ec66022-bawer bawer
+26 silly lockFile 7ec66022-bawer bawer
+27 verbose addNamed [ 'bawer', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile eb89300a-bawer bawer@
+30 verbose lock bawer@ /root/.npm/eb89300a-bawer.lock
+31 silly addNameRange { name: 'bawer', range: '*', hasData: false }
+32 verbose request where is /bawer
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id ec0d4db562e53308
+35 verbose url raw /bawer
+36 verbose url resolving [ 'https://registry.npmjs.org/', './bawer' ]
+37 verbose url resolved https://registry.npmjs.org/bawer
+38 verbose request where is https://registry.npmjs.org/bawer
+39 info trying registry request attempt 1 at 14:24:31
+40 http GET https://registry.npmjs.org/bawer
+41 http 404 https://registry.npmjs.org/bawer
+42 silly registry.get cb [ 404,
+42 silly registry.get   { 'content-type': 'application/json',
+42 silly registry.get     'cache-control': 'max-age=0',
+42 silly registry.get     'content-length': '2',
+42 silly registry.get     'accept-ranges': 'bytes',
+42 silly registry.get     date: 'Sat, 20 Aug 2016 17:24:31 GMT',
+42 silly registry.get     via: '1.1 varnish',
+42 silly registry.get     age: '0',
+42 silly registry.get     connection: 'keep-alive',
+42 silly registry.get     'x-served-by': 'cache-iad2129-IAD',
+42 silly registry.get     'x-cache': 'MISS',
+42 silly registry.get     'x-cache-hits': '0',
+42 silly registry.get     'x-timer': 'S1471713871.626711,VS0,VE58',
+42 silly registry.get     vary: 'Accept-Encoding' } ]
+43 silly lockFile eb89300a-bawer bawer@
+44 silly lockFile eb89300a-bawer bawer@
+45 error 404 Not Found
+45 error 404
+45 error 404 'bawer' is not in the npm registry.
+45 error 404 You should bug the author to publish it
+45 error 404
+45 error 404 Note that you can also install from a
+45 error 404 tarball, folder, or http url, or git url.
+46 error System Linux 3.16.0-4-amd64
+47 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "bawer"
+48 error cwd /var/www/portalv7
+49 error node -v v0.10.42
+50 error npm -v 1.4.29
+51 error code E404
+52 verbose exit [ 1, true ]
